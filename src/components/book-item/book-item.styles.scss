@@ -1,0 +1,54 @@
+.list-item {
+  height: 50px;
+
+  display: flex;
+
+  .lable {
+    margin-top: 14px;
+    width: 50%;
+    text-align: left;
+  }
+}
+.extras {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+
+  button {
+    width: 20%;
+    margin-top: 5px;
+  }
+}
+p {
+  position: relative;
+  bottom: 2px;
+}
+.meter {
+  height: 20px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  width: 70%;
+  margin-right: 5px;
+
+  p {
+    position: absolute;
+    bottom: 0px;
+    right: 29%;
+  }
+  span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f36d0a;
+    background-image: linear-gradient(to bottom, #f1a165, #f36d0a);
+
+    position: relative;
+    overflow: hidden;
+  }
+}
